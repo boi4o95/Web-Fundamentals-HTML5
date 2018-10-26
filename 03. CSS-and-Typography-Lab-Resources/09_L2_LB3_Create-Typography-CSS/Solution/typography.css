@@ -1,0 +1,52 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul ul li {
+    list-style-type: disc;
+}
+
+ul ul ul li {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 1.5rem;
+    border: 1px solid #CCCC;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #CCCC;
+}
+
+table thead th {
+    text-align: left;
+    background: #CCC;
+}
+
+table tr:nth-child(odd) td {
+    background: rgb(241,241,241);
+}
+
+blockquote {
+    border-left: 2px solid rgb(221, 221, 221);
+    font-style: italic;
+    margin: 0 0 1.5rem 1.5rem;
+    padding: 1rem 2em;
+
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+hr {
+    margin: 2rem 0;
+}

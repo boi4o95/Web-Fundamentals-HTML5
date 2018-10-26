@@ -1,0 +1,52 @@
+html {
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding: 2rem;
+}
+
+body  header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+} 
+
+nav.main ul {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+nav.main > ul {
+    display: flex;
+}
+
+nav.main li {
+    list-style: none outside;
+    display: block;
+    position: relative;
+}
+
+nav.main > ul > li:not(:last-child) {
+    padding-right: 0.5rem;
+}
+
+nav.main a {
+    display: block;
+    padding: 0.5rem 0.3rem;
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}

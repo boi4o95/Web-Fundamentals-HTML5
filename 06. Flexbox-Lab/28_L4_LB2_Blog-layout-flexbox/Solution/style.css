@@ -1,0 +1,102 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body {
+    padding: 5rem;
+    background: rgb(238, 238, 238)
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    min-width: 20vw;
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75rem;
+	margin: 0 auto;
+}
+
+.page > header {
+	width: 100%;
+}
+
+.page main {
+    width: 70%;
+} 
+
+main article {
+	padding-right: 2rem;
+}
+
+aside section {
+	padding-left: 4rem;
+}
+
+.page > header:first-of-type{
+    border-bottom: 2px solid #000;
+}
+
+h1, h2 {
+    font-family: "Georgia", serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+header a{
+    text-decoration: none;
+}
+
+aside  section {
+    padding-left: 4rem;
+}
+
+aside li {
+    list-style: disc;
+    
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+blockquote {
+    border-left: 2px solid rgb(221, 221, 221);
+    font-style: italic;
+    margin: 0 0 1.5rem 1.5rem;
+    padding: 1rem 2em;
+    font-family: "Georgia", serif;
+    font-size: 1em;
+    line-height: 1.2;
+    max-width: 49%;
+    float: right;
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+img[class^="align-"] {
+	padding: 0.5rem;
+	background: rgb(255, 255, 255);
+	border: 3px solid #222;
+	box-shadow: 0 0 5rem 0.1rem rgba(0,0,0,0.25);
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.align-left {
+    float: left;
+    margin: 0  1.5rem 1rem 0;
+}

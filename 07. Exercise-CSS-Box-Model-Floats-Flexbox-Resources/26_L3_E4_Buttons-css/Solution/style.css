@@ -1,0 +1,40 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+body {
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+button {
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 5rem;
+    background: white;
+    margin-right: 1rem;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.normal:hover {
+    border: 5px solid rgb(25, 85, 21);
+}
+
+.filled, 
+.icon {
+    background: rgb(51, 51, 51);
+    color: white;
+}
+
+.filled:hover,
+.icon:hover {
+    background: rgb(3, 102, 0);
+    color: white;
+}
+
+
+

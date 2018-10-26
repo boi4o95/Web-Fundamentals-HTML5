@@ -1,0 +1,61 @@
+html {
+    font-size: 16px;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    padding: 0 10rem 0 10rem;
+    background: rgb(238, 238, 238)
+}
+
+h1, h2 {
+    font-family: "Georgia", sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+blockquote {
+    border-left: 2px solid rgb(221, 221, 221);
+    font-style: italic;
+    margin: 0 0 1.5rem 1.5rem;
+    padding: 1rem 2em;
+    font-family: "Georgia", sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+    max-width: 49%;
+    float: right;
+}
+
+.align-left, .align-right {
+    border: 0.4rem black solid;
+    padding: 0.9rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25)
+
+}
+
+.align-right {
+    float: right;
+
+}
+
+.align-left {
+    float: left;
+    margin: 0 1.5rem 1rem 0;
+}
+
+.author {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}

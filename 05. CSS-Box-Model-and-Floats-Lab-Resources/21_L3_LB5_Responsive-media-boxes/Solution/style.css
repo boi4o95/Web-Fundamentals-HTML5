@@ -1,0 +1,57 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    padding: 5rem;
+}
+
+.card {
+    background: rgb(255, 255, 255); 
+    border-radius: 0.3rem;
+    overflow: hidden;
+    max-width: 26rem;
+}
+
+.card .media {
+    position: relative;
+    overflow: hidden;
+}
+
+.card .media::after {
+    display: block;
+    content: '';
+    padding-top: 56.26%
+}
+
+.card .media img {
+    display: block;
+    position: absolute;
+    left: 0; right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card .content {
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.card .content  h3{
+    font-size: 1rem;
+    line-height: 1.2;
+    font-family: "Georgia", sans-serif;
+}
+
+.card .content a.button {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding:  0.8rem;
+    border-radius: 0.2rem;
+    background: rgb(0, 153, 0);
+    float: right;
+}

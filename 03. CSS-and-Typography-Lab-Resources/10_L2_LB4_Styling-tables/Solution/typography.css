@@ -1,0 +1,30 @@
+body {
+    margin: 5em;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 1.5rem;
+    border: 1px solid #CCCC;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #CCCC;
+}
+
+table thead th {
+    text-align: left;
+    background: #CCC;
+}
+
+table tr:nth-child(odd) td {
+    background: rgb(241,241,241);
+}
+
+table tr:hover td {
+    background: black;
+    color: #FFF;
+    border-color: transparent;
+}
